@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "price": 50,
+    "category": "fruits"
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "price": 10,
+    "category": "fruits"
+  },
+  {
+    "id": 3,
+    "name": "Orange",
+    "price": 15,
+    "category": "fruits"
+  },
+  {
+    "id": 4,
+    "name": "Guava",
+    "price": 10,
+    "category": "fruits"
+  },
+  {
+    "id": 5,
+    "name": "Grapes",
+    "price": 100,
+    "category": "fruits"
+  },
+  {
+    "id": 6,
+    "name": "Pomegranate",
+    "price": 60,
+    "category": "fruits"
+  },
+  {
+    "id": 7,
+    "name": "Brinjal",
+    "price": 70,
+    "category": "vegetables"
+  },
+  {
+    "id": 8,
+    "name": "Chilli",
+    "price": 120,
+    "category": "vegetables"
+  },
+  {
+    "id": 9,
+    "name": "Drumstick",
+    "price": 80,
+    "category": "vegetables"
+  },
+  {
+    "id": 10,
+    "name": "Carrot",
+    "price": 60,
+    "category": "vegetables"
+  },
+  {
+    "id": 11,
+    "name": "Peas",
+    "price": 50,
+    "category": "vegetables"
+  },
+  {
+    "id": 12,
+    "name": "Beans",
+    "price": 80,
+    "category": "vegetables"
+  },
+  {
+    "id": 13,
+    "name": "Turnip",
+    "price": 30,
+    "category": "vegetables"
+  },
+  {
+    "id": 14,
+    "name": "Potato",
+    "price": 50,
+    "category": "vegetables"
+  },
+  {
+    "id": 15,
+    "name": "Tomato",
+    "price": 20,
+    "category": "vegetables"
+  },
+  {
+    "id": 16,
+    "name": "Onions",
+    "price": 90,
+    "category": "vegetables"
+  },
+  {
+    "id": 17,
+    "name": "Ginger",
+    "price": 100,
+    "category": "herbs and spices"
+  },
+  {
+    "id": 18,
+    "name": "Garlic",
+    "price": 30,
+    "category": "herbs and spices"
+  },
+  {
+    "id": 19,
+    "name": "Coriander",
+    "price": 10,
+    "category": "herbs and spices"
+  },
+  {
+    "id": 20,
+    "name": "Curry leaves",
+    "price": 5,
+    "category": "herbs and spices"
+  },
+  {
+    "id": 21,
+    "name": "lemon",
+    "price": 100,
+    "category": "herbs and spices"
+  },
+  {
+    "id": 22,
+    "name": "Spinach",
+    "price": 20,
+    "category": "leafy vegetables"
+  },
+  {
+    "id": 23,
+    "name": "Amaranthus",
+    "price": 15,
+    "category": "leafy vegetables"
+  },
+  {
+    "id": 24,
+    "name": "Menthi",
+    "price": 20,
+    "category": "leafy vegetables"
+  }
+]

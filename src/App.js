@@ -1,21 +1,17 @@
 import './App.css';
+import productsData from './productsData.json';
+import Product from "./Components/Product";
 
 function App() {
+  const products = productsData.map(productData => <Product data={productData}/>);
+
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <main>
+        {products}
+      </main>
     </div>
   );
 }
