@@ -1,4 +1,3 @@
-import './App.css';
 import productsData from './productsData.json';
 import Product from "./Components/Product";
 

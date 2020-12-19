@@ -121,25 +121,31 @@
   },
   {
     "id": 21,
+    "name": "Mint",
+    "price": 5,
+    "category": "herbs and spices"
+  },
+  {
+    "id": 22,
     "name": "lemon",
     "price": 100,
     "category": "herbs and spices"
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Spinach",
     "price": 20,
     "category": "leafy vegetables"
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "Amaranthus",
     "price": 15,
     "category": "leafy vegetables"
   },
   {
-    "id": 24,
-    "name": "Menthi",
+    "id": 25,
+    "name": "Fenugreek",
     "price": 20,
     "category": "leafy vegetables"
   }
