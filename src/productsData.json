@@ -1,150 +1,175 @@
 [
   {
     "id": 1,
+    "image":  "/assets/images/apple.jpg",
     "name": "Apple",
     "price": 50,
     "category": "fruits"
   },
   {
     "id": 2,
+    "image":  "/assets/images/banana.jpg",
     "name": "Banana",
     "price": 10,
     "category": "fruits"
   },
   {
     "id": 3,
+    "image":  "/assets/images/orange.jpg",
     "name": "Orange",
     "price": 15,
     "category": "fruits"
   },
   {
     "id": 4,
+    "image":  "/assets/images/guava.jpg",
     "name": "Guava",
     "price": 10,
     "category": "fruits"
   },
   {
     "id": 5,
+    "image":  "/assets/images/grapes.jpg",
     "name": "Grapes",
     "price": 100,
     "category": "fruits"
   },
   {
     "id": 6,
+    "image":  "/assets/images/pomegranate.jpg",
     "name": "Pomegranate",
     "price": 60,
     "category": "fruits"
   },
   {
     "id": 7,
+    "image":  "/assets/images/brinjal.jpeg",
     "name": "Brinjal",
     "price": 70,
     "category": "vegetables"
   },
   {
     "id": 8,
+    "image":  "/assets/images/chilli.jpg",
     "name": "Chilli",
     "price": 120,
     "category": "vegetables"
   },
   {
     "id": 9,
+    "image":  "/assets/images/drumstick.jpg",
     "name": "Drumstick",
     "price": 80,
     "category": "vegetables"
   },
   {
     "id": 10,
+    "image":  "/assets/images/carrot.jpg",
     "name": "Carrot",
     "price": 60,
     "category": "vegetables"
   },
   {
     "id": 11,
+    "image":  "/assets/images/peas.jpg",
     "name": "Peas",
     "price": 50,
     "category": "vegetables"
   },
   {
     "id": 12,
+    "image":  "/assets/images/beans.jpg",
     "name": "Beans",
     "price": 80,
     "category": "vegetables"
   },
   {
     "id": 13,
+    "image":  "/assets/images/turnip.jpg",
     "name": "Turnip",
     "price": 30,
     "category": "vegetables"
   },
   {
     "id": 14,
+    "image":  "/assets/images/potato.jpg",
     "name": "Potato",
     "price": 50,
     "category": "vegetables"
   },
   {
     "id": 15,
+    "image":  "/assets/images/tomato.jpg",
     "name": "Tomato",
     "price": 20,
     "category": "vegetables"
   },
   {
     "id": 16,
+    "image":  "/assets/images/onion.jpg",
     "name": "Onions",
     "price": 90,
     "category": "vegetables"
   },
   {
     "id": 17,
+    "image":  "/assets/images/ginger.jpg",
     "name": "Ginger",
     "price": 100,
     "category": "herbs and spices"
   },
   {
     "id": 18,
+    "image":  "/assets/images/garlic.jpg",
     "name": "Garlic",
     "price": 30,
     "category": "herbs and spices"
   },
   {
     "id": 19,
+    "image":  "/assets/images/coriander.jpg",
     "name": "Coriander",
     "price": 10,
     "category": "herbs and spices"
   },
   {
     "id": 20,
+    "image":  "/assets/images/curry leaves.jpg",
     "name": "Curry leaves",
     "price": 5,
     "category": "herbs and spices"
   },
   {
     "id": 21,
+    "image":  "/assets/images/mint.jpg",
     "name": "Mint",
     "price": 5,
     "category": "herbs and spices"
   },
   {
     "id": 22,
+    "image":  "/assets/images/lemon.jpg",
     "name": "lemon",
     "price": 100,
     "category": "herbs and spices"
   },
   {
     "id": 23,
+    "image":  "/assets/images/spinach.jpg",
     "name": "Spinach",
     "price": 20,
     "category": "leafy vegetables"
   },
   {
     "id": 24,
+    "image":  "/assets/images/amaranthus.jpg",
     "name": "Amaranthus",
     "price": 15,
     "category": "leafy vegetables"
   },
   {
     "id": 25,
+    "image":  "/assets/images/fenugreek.jpg",
     "name": "Fenugreek",
     "price": 20,
     "category": "leafy vegetables"
