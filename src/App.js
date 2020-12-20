@@ -8,8 +8,7 @@ function App() {
   function moveSlide(n) {
     let newIndex = index + n;
     console.log(newIndex)
-    if(newIndex < 1) newIndex = productsData.length;
-    else if(newIndex >= productsData.length) newIndex = 1;
+    if(newIndex < 1 || newIndex >= productsData.length) return;
     setIndex(newIndex);
   }
 
@@ -19,10 +18,12 @@ function App() {
       </header>
       <main>
         <div className="slide-carousel">
-          {productsData.map((productData, id) => <Product key={id}
-                                                          data={productData}
-                                                          index={index}
-          />)}
+          <div className="products">
+            {productsData.map((productData, id) => <Product key={id}
+                                                            data={productData}
+                                                            index={index}
+            />)}
+          </div>
           <span onClick={() => moveSlide(-1)} id="prev">&#10094;</span>
           <span onClick={() => moveSlide(1)} id="next">&#10095;</span>
         </div>
