@@ -3,13 +3,26 @@ import productsData from './productsData.json';
 import Product from "./Components/Product";
 
 function App() {
+  const [category, setCateogry] = useState('all');
   const [index, setIndex] = useState(1);
+
+  let filteredProducts = productsData;
+
+  if(category !== 'all') {
+    filteredProducts = filteredProducts.filter(product => product.category === category);
+  }
 
   function moveSlide(n) {
     let newIndex = index + n;
     console.log(newIndex)
-    if(newIndex < 1 || newIndex >= productsData.length) return;
+    if(newIndex < index || newIndex >= index + filteredProducts.length) return;
     setIndex(newIndex);
+  }
+
+  function handleChange(event) {
+    const category = event.target.value;
+    setCateogry(category);
+    setIndex(productsData.map(prod => prod.category).indexOf(category) + 1);
   }
 
   return (
@@ -17,9 +30,19 @@ function App() {
       <header className="App-header">
       </header>
       <main>
+        <div className="filter">
+          <select onChange={handleChange}>
+            <option value="all">All</option>
+            <option value="fruits">Fruits</option>
+            <option value="vegetables">Vegetables</option>
+            <option value="herbs and spices">Herbs and spices</option>
+            <option value="leafy vegetables">Leafy vegetables</option>
+          </select>
+        </div>
+
         <div className="slide-carousel">
           <div className="products">
-            {productsData.map((productData, id) => <Product key={id}
+            {filteredProducts.map((productData, id) => <Product key={id}
                                                             data={productData}
                                                             index={index}
             />)}
