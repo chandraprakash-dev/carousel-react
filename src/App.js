@@ -5,6 +5,7 @@ import Product from "./Components/Product";
 function App() {
   const [category, setCateogry] = useState('all');
   const [index, setIndex] = useState(1);
+  const [bounds, setBounds] = useState([1, productsData.length]);
 
   let filteredProducts = productsData;
 
@@ -12,17 +13,22 @@ function App() {
     filteredProducts = filteredProducts.filter(product => product.category === category);
   }
 
+  console.log(filteredProducts, bounds);
+
   function moveSlide(n) {
     let newIndex = index + n;
     console.log(newIndex)
-    if(newIndex < index || newIndex >= index + filteredProducts.length) return;
+    if(newIndex < bounds[0] || newIndex >= bounds[1] - 1) return;
     setIndex(newIndex);
   }
 
   function handleChange(event) {
     const category = event.target.value;
     setCateogry(category);
-    setIndex(productsData.map(prod => prod.category).indexOf(category) + 1);
+    const lowerBound = productsData.map(prod => prod.category).indexOf(category) + 1;
+    const upperBound = productsData.map(prod => prod.category).lastIndexOf(category) + 1;
+    setBounds([lowerBound, upperBound]);
+    setIndex(lowerBound);
   }
 
   return (
