@@ -11,7 +11,7 @@ function Product(props) {
 
   return(
     <div className={"product " + style}>
-      <img src={props.data.image} alt={props.data.name} />
+      <img src={process.env.PUBLIC_URL + props.data.image} alt={props.data.name} />
       <p>{props.data.name}</p>
       <p className="price">{'Rs. ' + props.data.price}</p>
       <p>{props.data.category}</p>
