@@ -28,9 +28,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h3>Your basket</h3>
       </header>
       <main>
         <div className="filter">
+          <label>Category</label>
           <select onChange={handleChange}>
             <option value="all">All</option>
             <option value="fruits">Fruits</option>

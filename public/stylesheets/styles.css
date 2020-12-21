@@ -1,3 +1,26 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+header {
+    background: #7dca00;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+}
+
+label {
+    margin: 0 10px;
+}
+
 .filter {
     height: 100px;
     display: flex;
@@ -10,12 +33,14 @@
     width: 200px;
     background: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 8px 8px #888888;
+    box-shadow: 2px 2px 3px 3px #888888;
+    color: #323232;
+    font-weight: bolder;
 }
 
 .slide-carousel {
     position: relative;
-    background: #efefef;
+    background: #cdcdcd;
     margin:50px auto;
     height: 500px;
     max-width: 90%;
@@ -43,11 +68,15 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .big {
     transform: scale(1.1);
+    box-shadow: 5px 5px 8px 8px #888888;
+}
+
+.price {
+    color: #7dca00;
 }
 
 /* Next & previous buttons */
@@ -59,7 +88,7 @@ img {
     border-radius: 0 3px 3px 0;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     transition: 0.6s ease;
     user-select: none;
 }
